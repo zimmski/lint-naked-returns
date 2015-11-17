@@ -35,7 +35,7 @@ Search the package `github.com/zimmski/tavor` and its subpackages using the buil
 lint-naked-returns --tag example-main github.com/zimmski/tavor/...
 ```
 
-Show the programs help:
+Show the program's help:
 ```bash
 lint-naked-returns --help
 ```
