@@ -1,11 +1,21 @@
 # lint-naked-returns
 
-This program finds you naked returns in functions and methods with return arguments.
+This program finds you naked returns in functions and methods with return arguments in Go(Golang) source code.
 
 ## Installation
 
 ```bash
 go get -u github.com/zimmski/lint-naked-returns
+```
+
+## Example
+
+This function's return statement will be flagged.
+
+```go
+func foo() (hey string) {
+	return
+}
 ```
 
 ## Usage
