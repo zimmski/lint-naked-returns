@@ -22,7 +22,7 @@ func foo() (hey string) {
 
 Search current package:
 ```bash
-lint-naked-returns .
+lint-naked-returns
 ```
 
 Search the package `github.com/zimmski/tavor` and its subpackages:
