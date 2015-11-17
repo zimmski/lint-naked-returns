@@ -18,7 +18,7 @@ func foo() (hey string) {
 
 func main() {
 	var opts struct {
-		Tags []string `long:"tag" description:"Compile tags"`
+		Tags []string `long:"tag" description:"Build tags"`
 	}
 
 	pkgs, err := flags.Parse(&opts)
